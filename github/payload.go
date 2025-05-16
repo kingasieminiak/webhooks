@@ -4025,7 +4025,7 @@ type PullRequestPayload struct {
 			} `json:"ref"`
 			Sha *struct {
 				From string `json:"from"`
-			} `json:"Sha"`
+			} `json:"sha"`
 		} `json:"base"`
 	} `json:"changes"`
 	Assignee          *Assignee `json:"assignee"`
